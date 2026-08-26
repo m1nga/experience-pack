@@ -1,4 +1,4 @@
-# experience-pack
+# Carry Project Lessons Forward Without Carrying Dead Decisions
 
 Your project's lessons survive a rebuild. Its decisions don't — and this skill knows the difference.
 
