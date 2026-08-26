@@ -47,7 +47,7 @@ npx skills add m1nga/experience-pack
 
 ## Works well with
 
-- [`diagnose-project-rebuild`](https://github.com/m1nga/diagnose-project-rebuild) — when a project
+- [`diagnose-project-rebuild`](https://github.com/m1nga/diagnose-project-rebuild/) — when a project
   direction is replaced, that skill takes exactly one input from history:
   this skill's portable layer.
 - `iteration-close` — owns the closure ritual; runs this skill's distillation
@@ -77,7 +77,7 @@ Probed 8 scenarios across 5 personas · 6 fired correctly · 1 correctly stayed 
 
 > **"记录经验" (dictated from the Desktop, no project open)** → fires, then refuses to drop an `EXPERIENCE.md` on your Desktop — it asks which project the lesson belongs to, and if no project can be established it hands you the formatted entry instead of silently losing it.
 
-Probe method: [scenario-probe](https://github.com/m1nga/scenario-probe)
+Probe method: [scenario-probe](https://github.com/m1nga/scenario-probe/)
 
 ## Author
 
