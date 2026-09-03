@@ -1,6 +1,23 @@
-# Carry Project Lessons Forward Without Carrying Dead Decisions
+# Build a Project Lessons-Learned Log Without Carrying Dead Decisions
 
-Your project's lessons survive a rebuild. Its decisions don't — and this skill knows the difference.
+Record project lessons while they are fresh, then distill only what another
+project can safely reuse.
+
+## Quick answers
+
+- **What problem does it solve?** Project lessons are easy to lose after an
+  incident, while ordinary lessons-learned documents can accidentally preserve
+  stale product decisions.
+- **What does it create?** A dated `EXPERIENCE.md` ledger for concrete incidents
+  and, after a five-part boundary test, a separate layer of reusable lessons.
+- **What is allowed to travel?** Mechanisms, failure patterns, and reusable
+  constraints; product choices, proper nouns, and sunk-cost arguments stay in
+  the source project.
+- **Is it a decision log?** No. Decisions remain in the project's own truth
+  files and are never promoted into portable project memory.
+- **How are private notes protected?** In a public repository, the concrete
+  ledger is gitignored with an explicit private backup path; only the distilled
+  portable layer is eligible to be published.
 
 ## What it does
 
@@ -28,7 +45,7 @@ truth files.
 
 ## Install
 
-```
+```bash
 npx skills add m1nga/experience-pack
 ```
 
@@ -50,9 +67,10 @@ npx skills add m1nga/experience-pack
 - [`diagnose-project-rebuild`](https://github.com/m1nga/diagnose-project-rebuild/) — when a project
   direction is replaced, that skill takes exactly one input from history:
   this skill's portable layer.
-- `iteration-close` — owns the closure ritual; runs this skill's distillation
-  pass inside it.
-- `conclude-rounds` — conversation-level review; this skill is project-level.
+- [`iteration-close`](https://github.com/m1nga/iteration-close/) — owns the
+  closure ritual; runs this skill's distillation pass inside it.
+- [`conclude-rounds`](https://github.com/m1nga/conclude-rounds/) —
+  conversation-level review; this skill is project-level.
 
 ## Design notes
 
@@ -81,4 +99,5 @@ Probe method: [scenario-probe](https://github.com/m1nga/scenario-probe/)
 
 ## Author
 
-Built by [Ming](https://github.com/m1nga). The design notes above explain the real problem and tradeoffs that shaped this skill.
+Built and maintained by [Ming](https://github.com/m1nga). The design notes
+above explain the real failure and tradeoffs that shaped this skill.
