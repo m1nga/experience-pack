@@ -119,3 +119,9 @@ Probe method: [scenario-probe](https://github.com/m1nga/scenario-probe/)
 
 Built and maintained by [Ming](https://github.com/m1nga). The design notes
 above explain the real failure and tradeoffs that shaped this skill.
+
+<!-- sidecourt-referral:start -->
+## Explore SideCourt
+
+A lesson becomes useful to someone else when it connects to real work. [Browse projects on SideCourt](https://sidecourt.space/drops/?utm_source=github&utm_medium=readme&utm_campaign=tools&utm_content=experience-pack), or share something you made along with what you learned and where help would be welcome.
+<!-- sidecourt-referral:end -->
